@@ -1,0 +1,61 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/blackhole.txt",
+    "color": {
+      "1": "white"
+    },
+    "padding": {
+      "top": 0,
+      "left": 2,
+      "right": 6
+    }
+  },
+
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "white",
+      "title": "white"
+    }
+  },
+
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────── system ────────────────────────────┐"
+    },
+
+    { "type": "title", "format": "│ {user}@{host}" },
+    { "type": "os", "key": "│ os" },
+    { "type": "kernel", "key": "│ kernel" },
+    { "type": "uptime", "key": "│ uptime" },
+    { "type": "packages", "key": "│ packages" },
+
+    { "type": "custom", "format": "│" },
+
+    { "type": "custom", "format": "│ desktop" },
+    { "type": "de", "key": "│ de" },
+    { "type": "wm", "key": "│ wm" },
+    { "type": "shell", "key": "│ shell" },
+
+    { "type": "custom", "format": "│" },
+
+    { "type": "custom", "format": "│ hardware" },
+    { "type": "cpu", "key": "│ cpu" },
+    { "type": "gpu", "key": "│ gpu" },
+    { "type": "memory", "key": "│ ram" },
+    { "type": "disk", "key": "│ disk" },
+
+    { "type": "custom", "format": "│" },
+    { "type": "custom", "format": "│" },
+    { "type": "custom", "format": "│" },
+
+    {
+      "type": "custom",
+      "format": "└────────────────────────────────────────────────────────────────┘"
+    }
+  ]
+}
