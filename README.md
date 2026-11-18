@@ -6,14 +6,13 @@ This is my hyprland rice
 
 
 Dependencies:
-1.swaybg
-2.cliphist
-3.hyprshot
-4.brightnessctl
-5.playerctl
-6.btop
-7.pavucontrol
-8.nmtui
-9.swaync
-10.overskride
-screenshots
+swaybg,
+cliphist,
+hyprshot,
+brightnessctl,
+playerctl,
+btop,
+pavucontrol,
+nmtui,
+swaync,
+overskride
